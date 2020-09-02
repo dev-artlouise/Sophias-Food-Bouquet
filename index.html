@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Nuno - Responsive Bootstrap Theme</title>
+	<link rel="stylesheet" href="vendors/bootstrap-4.1.3-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="resources/css/style.css">
+	<link rel="stylesheet" href="vendors/css/fixed.css">
+</head>
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+	<!--HOME SECTION-->
+	<div id="home">
+		<!--Navigation Bar-->
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#"><img src="resources/img/final-brand-2.png" alt="brand"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigationBar"
+					aria-controls="navigationBar" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navigationBar">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#home">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#about">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#services">Services</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#products">Products</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#clients">Clients</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">Contact</a>
+						</li>
+					</ul>
+
+					<!-- 
+						<div class="login-btn">
+							<a class="btn btn-outline-light btn-block" href="#">Login</a>
+						</div>
+					 -->
+
+					<!--
+						<div class="form-inline my-2 my-lg-0" >
+							<a href="{% url 'cart' %}">
+								<img id="cart-icon" class="cart-icon" src="{% static 'images/cart.png' %}">
+							</a>
+							<p id="cart-total">0</p>	
+						</div>
+					-->
+				</div>
+			</div>
+		</nav>
+		<!--Navigation Bar-->
+
+		<!--Landing Page -->
+		<div class="landing">
+			<div class="home-wrap">
+				<div class="home-inner">
+				</div>
+			</div>
+		</div>
+
+		<div class="caption text-center">
+			<h1>Welcome to </h1>
+			<h1>Sophia's Bouquet</h1>
+			<h3>Sana all no more</h3>
+			<a class="btn btn-outline-light btn-lg" href="#">Order Now</a>
+		</div>
+		<!--Landing Page-->
+	</div>
+	<!--HOME SECTION-->
+
+	<!--ABOUT SECTION-->
+	<div id="about" class="offset">
+		<div class="col-12 narrow text-center">
+			<h2>About Us</h2>
+			<p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+				Reiciendis neque soluta ipsa placeat dolor consequatur laudantium molestiae officia perspiciatis,
+				asperiores exercitationem provident,
+				debitis molestias iusto, culpa possimus pariatur? Quas,
+				distinctio.
+			</p>
+			<!--<a href="#" class="btn btn-secondary btn-md">Visit Us on Facebook</a>-->
+		</div>
+	</div>
+	<!--ABOUT SECTION-->
+
+	<!--SERVICES SECTION-->
+	<div id="services" class="offset">
+		<div class="jumbotron">
+			<div class="narrow text-center">
+				<div class=col-12>
+					<h2 class="heading">Services</h2>
+					<div class="heading-underline"></div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-4">
+						<div class="services">
+							<i class="fas fa-play-circle fa-4x" data-fa-transform="shrink up-5"></i>
+							<h3>Premade Bouquets</h3>
+							<p>
+								Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+								Necessitatibus nisi reprehenderit fugiat,
+							</p>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="services">
+							<i class="fas fa-cogs fa-4x" data-fa-transform="shrink up-5"></i>
+							<h3>Customized Bouquets</h3>
+							<p>
+								Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+								Necessitatibus nisi reprehenderit fugiat,
+							</p>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="services">
+							<i class="fas fa-truck fa-4x" data-fa-transform="shrink up-5"></i>
+							<h3>Meetups and Deliveries</h3>
+							<p>
+								Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+								Necessitatibus nisi reprehenderit fugiat,
+							</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!--SERVICES SECTION-->
+
+	<!--PRODUCTS SECTION-->
+	<div id="products" class="offset">
+		<div class="fixed-background">
+
+			<div class="row dark text-center">
+				<div class="col-12">
+					<h2 class="heading">Our Products</h2>
+					<div class="heading-underline"></div>
+				</div>
+			</div>
+
+			<div class="fixed-wrap">
+				<div class="fixed">
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<!--PRODUCTS SECTION-->
+
+	<!--TESTIMONIALS SECTION-->
+	<div id="clients" class="offset">
+		<div class="jumbotron">
+			<div class="col-12 text-center">
+				<h2 class="heading">Customers</h2>
+				<div class="heading-underline"></div>
+			</div>
+
+			<div class="row">
+
+				<div class="col-md-6 clients">
+					<div class="row">
+						<div class="col-md-4">
+							<img src="resources/img/client 1.jpg">
+						</div>
+						<div class="col-md-8">
+							<blockquote>
+								<i fas fa-qoute-left></i>
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+								Ea assumenda, iure ullam iste accusantium excepturi necessitatibus saepe,
+								orporis ut explicabo rem cupiditate? Natus enim pariatur officia repudiandae.
+								Nobis, autem explicabo.
+								<hr class="clients-hr">
+								<cite>&#8212; Art Sambrano, Gamer, Web Developer</cite>
+							</blockquote>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 clients">
+					<div class="row">
+						<div class="col-md-4">
+							<img src="resources/img/client 1.jpg">
+						</div>
+						<div class="col-md-8">
+							<blockquote>
+								<i fas fa-qoute-left></i>
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+								Ea assumenda, iure ullam iste accusantium excepturi necessitatibus saepe,
+								orporis ut explicabo rem cupiditate? Natus enim pariatur officia repudiandae.
+								Nobis, autem explicabo.
+								<hr class="clients-hr">
+								<cite>&#8212;Elisha Napalcruz, Professional Teacher</cite>
+							</blockquote>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+		<div class="col-12 narrow text-center">
+			<p class="lead">
+				Want to gift your Special Someone with our customized Food Bouqet?
+			</p>
+			<a class="btn btn-secondary btn-md" href="#">Order Now</a>
+		</div>
+	</div>
+	<!--TESTIMONIALS SECTION-->
+
+	<!--CONTACT FORM SECTION-->
+	<div id="contact" class="offset">
+
+	</div>
+	<!--CONTACT FORM SECTION-->
+
+	<footer>
+
+	</footer>
+
+	<!--- Script Source Files -->
+	<script src="vendors/js/jquery-3.3.1.min.js"></script>
+	<script src="vendors/bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+	<!--- End of Script Source Files -->
+
+</body>
+
+</html>

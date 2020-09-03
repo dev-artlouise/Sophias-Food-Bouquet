@@ -18,7 +18,7 @@ body {
 }
 
 .navbar-brand img {
-  height: 3rem;
+  height: 5rem;
   width: 15rem;
 }
 
@@ -79,6 +79,15 @@ body {
 /*products section*/
 
 /*products section*/
+
+/*footer section*/
+
+footer {
+  background-color: #505962;
+  color: #fafafa
+}
+
+/*footer section*/
 
 /*============= About Section =============*/
 

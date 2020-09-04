@@ -117,6 +117,24 @@ body {
 
 /* testimonials section */
 
+/* Contact Us Section */
+
+.btn-outline-secondary {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-outline-secondary:hover {
+  transform: scale (1.05);
+}
+
+#contact .container p {
+  font-size: 18px;
+}
+
+/* Contact Us Section */
+
 /*footer section*/
 
 footer {

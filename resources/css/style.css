@@ -80,6 +80,43 @@ body {
 
 /*products section*/
 
+/* testimonials section */
+
+.testimonial-container {
+  background-color: #505962;
+  color: #fafafa;
+}
+
+.testimonial-container, .slider-area {
+  padding: 15px 0;
+  position: relative;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  background: transparent;
+}
+
+.img-area {
+  height: 20%;
+  width: 20%;
+  margin: auto;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.img-area img {
+  width: 100%;
+}
+
+.carousel-caption {
+  position: static;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+/* testimonials section */
+
 /*footer section*/
 
 footer {

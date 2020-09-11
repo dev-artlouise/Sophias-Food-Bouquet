@@ -5,8 +5,14 @@ body {
   color: #505962;
 }
 
-/*Navigation Bar*/
+.offset:before{
+  display: block;
+  content: "";
+  height: 6.6rem;
+  margin-top: -6.6rem;
+}
 
+/*Navigation Bar*/
 .navbar {
   text-transform: uppercase;
   font-weight: 700;
@@ -19,7 +25,7 @@ body {
 
 .navbar-brand img {
   height: 5rem;
-  width: 15rem;
+  width: 10rem;
 }
 
 .navbar-nav li {
@@ -34,11 +40,9 @@ body {
 .navbar-dark .navbar-nav .nav-link:hover {
   color: #fc62d5;
 }
-
 /*Navigation Bar*/
 
 /*Landing Page */
-
 .home-inner {
   background-image: url('/vendors/img/sample.jpg');
 }
@@ -73,15 +77,49 @@ body {
   padding: .6rem 1.6rem;
   font-size: 1.1rem;
 }
-
 /*Landing Page */
+
+/*Services Section*/
+.jumbotron{
+  margin-bottom: 0;
+  padding: 2rem 0 3.5rem;
+  border-radius: 0;
+}
+
+h3.heading{
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1.9rem;
+}
+
+.heading-underline{
+  width: 3rem;
+  height: .2rem;
+  background-color: #fc62d5;
+  margin: 0 auto 2rem;
+}
+
+.services svg.svg-inline--fa{
+  color: #fc62d5
+}
+
+.services h4{
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  padding-bottom: .4rem;
+}
+
+.services p{
+  font-size: 1.1rem;
+}
+/*Services Section*/
 
 /*products section*/
 
 /*products section*/
 
 /* testimonials section */
-
 .testimonial-container {
   background-color: #505962;
   color: #fafafa;
@@ -115,7 +153,6 @@ body {
   padding-top: 20px;
 }
 
-
 .carousel-caption {
    font-size: 26px;
    margin-bottom: 15px;
@@ -132,11 +169,9 @@ body {
 .carousel-indicators{
   bottom: -35px;
 }
-
 /* testimonials section */
 
 /* Contact Us Section */
-
 .btn-outline-secondary {
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -150,15 +185,13 @@ body {
 #contact .container p {
   font-size: 18px;
 }
-
 /* Contact Us Section */
 
 /*footer section*/
-
 footer {
-  background-color: #505962;
+  background-color: #40474e;
   color: #fafafa;
-  padding: 20px 0;
+  padding: 2rem 0 2rem;
 }
 
 .segment-two h4{
@@ -166,7 +199,6 @@ footer {
   margin: 10px 0;
   text-transform: uppercase;
 }
-
 
 .segment-two h4:before{
   content: '|';
@@ -216,7 +248,20 @@ footer {
   color:#fc62d5;
 }
 
+.footer-bottom a{
+  text-decoration: none;
+  color:#fafafa;
+}
 
+.footer-bottom a:hover{
+  color:#fc62d5;
+}
+
+hr.socket{
+  width: 100%;
+  border-top: .2rem solid #666b71;
+  margin-top: 3rem;
+}
 /*footer section*/
 
 /*============= About Section =============*/
@@ -247,6 +292,37 @@ footer {
   border-color: #189582;
   background-color: #189582;
   color: white;
+}
+
+/*media queries*/
+@media (max-width: 767px){
+  .caption h1 {
+    font-size: 2.3rem;
+    letter-spacing: .15rem;
+    padding-bottom: .5rem;
+  }
+  
+  .caption h3 {
+    font-size: 1.2rem;
+    padding-bottom: 1.2rem;
+  }
+  
+  .btn-lg {
+    padding: .5rem 1.3rem;
+    font-size: 1rem;
+  }
+
+  .narrow h1{
+    font-size: 1.5rem;
+  }
+
+  img-are {
+    max-width:50%;
+    display:block;
+    margin: 0 auto;
+  };
+  
+
 }
 
 /*============ BOOTSTRAP BREAK POINTS:

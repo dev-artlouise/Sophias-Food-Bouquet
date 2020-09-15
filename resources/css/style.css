@@ -44,7 +44,7 @@ body {
 
 /*Landing Page */
 .home-inner {
-  background-image: url('/vendors/img/sample.jpg');
+  background-image: url("/vendors/img/sample.jpg");
 }
 
 .caption {
